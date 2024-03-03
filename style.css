@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:solid 1px white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    backdrop-filter: blur(5px);
+} 
+.section{
+    position: absolute;
+    margin: 150px 450px;
+}
+
+.formulario {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    margin: 20px;
+    letter-spacing: 1.2px;
+}
+
+.container-email,
+.container-password {
+    margin: 10px 0;
+    border-bottom: 2px solid white;
+
+}
+
+.container-email label,
+.container-password label {
+    color: white;
+    position: absolute;
+    border: none;
+    left: 105px;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    pointer-events: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.container-email input,
+.container-password input {
+    position: relative;
+    margin: 20px 0;
+    width: 250px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.container-email i,
+.container-password i {
+    font-size: 1.6rem;
+    top: 19px;
+    right: 8px;
+}
+
+
+button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    box-shadow: 0px 0px 20px white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    text-shadow: 0px 0px 20px white;
+    text-decoration-line: underline;
+}
+.registro {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
